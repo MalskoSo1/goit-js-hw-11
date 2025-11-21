@@ -52,12 +52,12 @@
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   max-width: 1128px;
 }
 
 .gallery-item {
-  width: 302px; /* однакові картки */
+  width: 302px;
   border: 1px solid #808080;
   display: flex;
   flex-direction: column;
@@ -67,16 +67,15 @@
 .gallery-card {
   display: block;
   width: 100%;
-  height: 200px; /* картинка */
-  overflow: hidden;
+  height: 200px;
 }
 
 .gallery-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* картинка не обрізається */
+  object-fit: cover;
   display: block;
-  background-color: #f0f0f0; /* опціонально, для порожніх місць */
+  background-color: #f0f0f0;
   cursor: pointer;
 }
 
