@@ -32,13 +32,7 @@ export function clearGallery() {
 export function showLoader() {
   const loader = document.querySelector('.loader');
 
-  if (loader) {
-    loader.style.display = 'block';
-  } else {
-    const newLoader = document.createElement('span');
-    newLoader.classList.add('loader');
-    refs.gallery.insertAdjacentElement('afterend', newLoader);
-  }
+  loader.style.display = 'block';
 }
 
 export function hideLoader() {
